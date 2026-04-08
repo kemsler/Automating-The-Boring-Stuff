@@ -51,17 +51,18 @@ You can name a variable anything as long as it obeys the following three rules:
 | SPAM | total_$um (special characters like $ are not allowed) |
 | account4 | 'hello' (special characters like ' are not allowed) |
 
-## Text and Number Equivalence
-Although the string value of a number is considered a completely different  
-value from the integer or floating-point version, an integer can be equal  
-to a floating point.
-```python
+[!NOTE]
+Text and Number Equivalence
+
+Although the string value of a number is considered a completely different value from the integer or floating-point version, an integer can be equal to a floating point.
+
 >>> 42 == '42'
 False
+
 >>> 42 == 42.0
 True
+
 >>> 42.0 == 0042.000
 True
-```
-Python makes this distinction because strings are text, while integers  
-and floats are both numbers.
+
+Python makes this distinction because strings are text, while integers and floats are both numbers.
