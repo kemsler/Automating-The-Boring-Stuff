@@ -1,1 +1,1 @@
-test
+# This is my notes and projects for learning Python from: Automate The Boring Stuff With Python, by  Al Sweigart
