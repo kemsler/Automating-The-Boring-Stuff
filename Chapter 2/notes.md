@@ -76,9 +76,4 @@ if name == 'Mary':
         print('Access granted.')
     else:
         print('Wrong password.')
-<<<<<<< HEAD
 ```
-test
-=======
-```
->>>>>>> 962f58c4fc83cc90fa1f6f7f0db4a1eae9cdf27e
