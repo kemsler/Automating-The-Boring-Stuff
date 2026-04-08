@@ -32,3 +32,36 @@ You’ll store values in variables with an assignment statement. An assignment
 statement consists of a variable name, an equal sign (called the assignment  
 operator), and the value to be stored. If you enter the assignment statement  
 spam = 42, then a variable named spam will have the integer value 42 stored in it.
+
+### Variable names
+
+You can name a variable anything as long as it obeys the following three rules:  
+1. It can be only one word.  
+2. It can use only letters, numbers, and the underscore (_) character.  
+3. It can’t begin with a number.
+
+#### Valid and Invalid variable names
+
+| Valid variable names | Invalid variable names |
+|----------------------|------------------------|
+| balance | current-balance (hyphens are not allowed) |
+| currentBalance | current balance (spaces are not allowed) |
+| current_balance | 4account (can’t begin with a number) |
+| _spam | 42 (can’t begin with a number) |
+| SPAM | total_$um (special characters like $ are not allowed) |
+| account4 | 'hello' (special characters like ' are not allowed) |
+
+## Text and Number Equivalence
+Although the string value of a number is considered a completely different  
+value from the integer or floating-point version, an integer can be equal  
+to a floating point.
+```python
+>>> 42 == '42'
+False
+>>> 42 == 42.0
+True
+>>> 42.0 == 0042.000
+True
+```
+Python makes this distinction because strings are text, while integers  
+and floats are both numbers.
