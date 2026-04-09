@@ -1,4 +1,4 @@
-# Chapter 2 - Flow control
+# Chapter 2 - if-else and Flow Control
 
 ## Comparison operators
 
